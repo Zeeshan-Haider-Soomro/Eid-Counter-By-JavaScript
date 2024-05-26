@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: url(images/360_F_575855011_tgVnadpXv7Cg2FMFn0U056A418Sr8c67.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+h1{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 200px;
+    color: rgb(95, 14, 14);
+    font-size: 40px;
+}
+#counterDays{
+    position: absolute;
+    margin-top: 250px;
+    font-size: 40px;
+    margin-left: 30px;
+    color: aliceblue;
+}
+#counterHours{
+    position: absolute;
+    margin-top: 300px;
+    font-size: 40px;
+    margin-left: 30px;
+    color: aliceblue;
+
+}
+#counterMinutes{
+    position: absolute;
+    margin-top: 350px;
+    font-size: 40px;
+    margin-left: 30px;
+    color: aliceblue;
+
+}
+#counterSeconds{
+    position: absolute;
+    margin-top: 400px;
+    font-size: 40px;
+    margin-left: 30px;
+    color: aliceblue;
+
+}

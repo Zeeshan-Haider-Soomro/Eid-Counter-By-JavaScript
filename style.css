@@ -6,52 +6,48 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    /* background: url(images/pngtree-eid-al-adha-moon-with-bakra-typography-png-free-vector-and-png-image_5247629-removebg-preview.png); */
+    background: linear-gradient(45deg, #000000, #192378, #000000);
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
-    flex-wrap: wrap;
+    background-size: cover;
+    /* height: 100vh; */
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    box-shadow: 25px 25px 25px 2px lightslategrey;
+
 }
 .banner{
     display: flex;
-    gap: 500px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: aliceblue;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.box{
+    height: 150px;
+    width: 200px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 h1{
-    position: absolute;
-    margin-left: 30px;
-    margin-top: 200px;
-    color: rgb(95, 14, 14);
-    font-size: 40px;
+    color: white;
 }
-#counterDays{
-    position: absolute;
-    margin-top: 250px;
-    font-size: 40px;
-    margin-left: 30px;
-    color: black;
-}
-#counterHours{
-    position: absolute;
-    margin-top: 300px;
-    font-size: 40px;
-    margin-left: 30px;
-    color: black;
-
-}
-#counterMinutes{
-    position: absolute;
-    margin-top: 350px;
-    font-size: 40px;
-    margin-left: 30px;
-    color: black;
-
-}
-#counterSeconds{
-    position: absolute;
-    margin-top: 400px;
-    font-size: 40px;
-    margin-left: 30px;
-    color: black;
-
+.footer{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 206.5px;
+    padding: 20px;
+    font-size: 20px;
 }

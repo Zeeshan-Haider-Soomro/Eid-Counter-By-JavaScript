@@ -1,3 +1,8 @@
+
+let date = new Date();
+let year = date.getFullYear()
+yearChanger.innerText = year
+
 let counter = document.querySelector("#counterDays")
 let remove = document.getElementById("remove")
 
@@ -11,10 +16,10 @@ let remainingHours = Math.floor(diff/(1000 * 60 * 60))
 let remainingMinutes = Math.floor(diff/(1000 * 60))
 let remainingSeconds = Math.floor(diff/(1000))
 
-counterDays.innerText = `${remainingDays} days remaining`
-counterHours.innerText = `${remainingHours} hours remaining`
-counterMinutes.innerText = `${remainingMinutes} minutes remaining`
-counterSeconds.innerText = `${remainingSeconds} seconds remaining`
+counterDays.innerText = `Days \n  ${remainingDays} `
+counterHours.innerText = `Hours \n ${remainingHours} `
+counterMinutes.innerText = `Minutes \n ${remainingMinutes} `
+counterSeconds.innerText = `Seconds \n ${remainingSeconds} `
 
 
 if(remainingDays < 0){
